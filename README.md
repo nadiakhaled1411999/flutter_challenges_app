@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/070826c9-4d67-4005-8b93-9d121bbe1eec
   - Swipe to delete with confirmation dialog.
   - Undo deletion with a SnackBar.
   - Drag & Drop to reorder tasks.
-- File: `lib/challenge1_dismissible_reorderable.dart`
+- File: `lib/dismissible_reorderable.dart`
 
 ---
 
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/070826c9-4d67-4005-8b93-9d121bbe1eec
 - Visual feedback during drag.
 - Success state for correct matches.
 - Error handling for incorrect drops.
-- File: `lib/challenge2_physics_drag.dart`
+- File: `lib/physics_drag.dart`
 
 ---
 
@@ -45,16 +45,16 @@ https://github.com/user-attachments/assets/070826c9-4d67-4005-8b93-9d121bbe1eec
 - Three dots scaling and fading in sequence.
 - Continuous looping animation.
 - Smooth curves for better UX.
-- File: `lib/challenge3_three_dot_loader.dart`
+- File: `lib/three_dot_loader.dart`
 
 ---
 
 ## 📂 Project Structure
 lib/
 │── main.dart
-│── challenge1_dismissible_reorderable.dart
-│── challenge2_physics_drag.dart
-│── challenge3_three_dot_loader.dart
+│── dismissible_reorderable.dart
+│── physics_drag.dart
+│── three_dot_loader.dart
 
 
 ---
@@ -66,11 +66,10 @@ lib/
    ```bash
    flutter pub get
    flutter run
-4.From the home screen, select any challenge to explore.
+4. From the home screen, select any challenge to explore.
 
 ---
-👨‍💻 Author
-
-Developed with ❤️ by [Eng:Nadia khaled ]
-
+ 👩‍💻 Flutter Developer
+ 
+Built with ❤️ by [Eng. Nadia Khaled]
 
