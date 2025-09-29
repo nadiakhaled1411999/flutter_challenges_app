@@ -1,16 +1,76 @@
-# flutter_challenges_app
 
-A new Flutter project.
+ 
+ # Flutter_Challenges_app 🚀
 
-## Getting Started
+A simple Flutter project with **3 practical challenges** to explore widgets, animations, and user interaction.  
+Perfect for anyone who wants to practice Flutter through hands-on examples.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Demo
+🎥  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/user-attachments/assets/070826c9-4d67-4005-8b93-9d121bbe1eec
+
+
+---
+
+## 🛠️ Challenges
+
+### ✅ Challenge 1: Interactive Dismissible + Reorderable Checklist
+- A ToDo List with:
+  - Checkbox for marking tasks as complete.
+  - Checked → Text is struck through.
+  - Unchecked → Text returns to normal.
+  - Swipe to delete with confirmation dialog.
+  - Undo deletion with a SnackBar.
+  - Drag & Drop to reorder tasks.
+- File: `lib/challenge1_dismissible_reorderable.dart`
+
+---
+
+### 🎯 Challenge 2: Physics Drag & Drop
+- Draggable colored balls (at least 3).
+- Matching drop targets/containers.
+- Visual feedback during drag.
+- Success state for correct matches.
+- Error handling for incorrect drops.
+- File: `lib/challenge2_physics_drag.dart`
+
+---
+
+### 🔄 Challenge 3: Three Dot Loader Animation
+- `AnimationController` + multiple `Tween` animations.
+- Three dots scaling and fading in sequence.
+- Continuous looping animation.
+- Smooth curves for better UX.
+- File: `lib/challenge3_three_dot_loader.dart`
+
+---
+
+## 📂 Project Structure
+lib/
+│── main.dart
+│── challenge1_dismissible_reorderable.dart
+│── challenge2_physics_drag.dart
+│── challenge3_three_dot_loader.dart
+
+
+---
+
+## 🚀 Getting Started
+1. Clone or download the repository.
+2. Open the project in **VS Code** or **Android Studio**.
+3. Run the following commands:
+   ```bash
+   flutter pub get
+   flutter run
+4.From the home screen, select any challenge to explore.
+
+---
+👨‍💻 Author
+
+Developed with ❤️ by [Eng:Nadia khaled ]
+
+
